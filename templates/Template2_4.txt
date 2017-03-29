@@ -1,0 +1,6 @@
+              <div class="col-sm-12">
+                <div class="col-sm-8">{{TEXT}}</div>
+                <div class="col-sm-4" style="text-align: right;">
+                  <img class="img-responsive img-rounded" src="{{IMAGE}}" alt="Image">
+                </div>
+              </div>

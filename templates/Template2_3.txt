@@ -1,0 +1,6 @@
+              <div class="col-sm-12 spacer">
+                <div class="col-sm-4">
+                     <img class="img-responsive img-rounded" src="{{IMAGE}}" alt="Image">
+                </div>
+                <div class="col-sm-8">{{TEXT}}</div>
+              </div>

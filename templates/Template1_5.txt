@@ -1,0 +1,3 @@
+				<tr>
+					<td colspan="3" style="text-align: center;"><input type="button" value="{{TEXT}}" class="myButton" onclick="window.open('{{LINK}}')"></td>
+				</tr>

@@ -1,0 +1,4 @@
+				<tr>
+					<td colspan="3"><img id="headerImage" src="{{IMAGE}}" alt="Image" width="565px" height="200px"></td>
+				</tr>
+				

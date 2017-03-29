@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, label,
+		table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		
+		#wrapper {
+			box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5); /* Drop Shadow */
+			border-radius: 10px 10px 10px 10px; /* Round Border */
+			border: 0px solid #000000;
+			
+			background-color: #300D00; /* Background Color to Change */ 
+			
+			margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			width: {{WIDTH}}px;
+		}
+
+		#header {
+			position: relative;
+			min-height: 100px;
+			margin-bottom: 10px;
+		}
+
+		#header-content {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+		
+		#header-image {
+			border-radius: 10px 10px 0px 0px; /* Round Border */
+		}
+		
+		#content {
+			padding: 10px;
+			background-color: #FFFFFF; 
+		}
+
+		#footer {
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			padding: 10px;
+		}
+
+		#footer table {
+			width: 100%;
+			table-layout: fixed;
+		}
+		
+		#footer td {
+			font-size: 0.8em;
+			color: #FFFFFF;
+			vertical-align: center;
+		}
+		
+		#footer a {
+			color: yellow;
+			text-decoration: none;
+		}
+
+		h2 {
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 1.5em;
+			font-weight: bold;
+			color: gold;
+			text-align: left;
+			padding: 10px;
+		}
+
+		table {
+			width: 100%;
+			table-layout: fixed;
+		}
+
+		td, th {
+			font-family: Georgia, serif;
+			text-align: left;
+			vertical-align: top;
+			padding: 5px;
+		}
+
+		th {
+			font-weight: bold;
+			font-size: 1.3em;
+			color: #000000;
+		}
+
+		td {
+			font-size: 1.0em;
+			color: #000000;
+		}
+
+		.myButton {
+			border-radius:6px;
+			border:3px solid #300D00;
+			display:inline-block;
+			cursor:pointer;
+			color:#300D00;
+			font-family:Arial;
+			font-size:15px;
+			font-weight:bold;
+			padding:6px 12px;
+			text-decoration:none;
+		}
+
+		.myButton:hover {
+			background-color:#300D00;
+			color: #ffffff;
+		}
+		
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
+
+	</style>
+	</head>
+
+	<body>
+    <div id="wrapper">
+		<div id="header">
+			<div id="header-content"><h2>{{SUBJECT}}</h2></div>
+		</div>
+		
+		<div id="content">
+			<table>
+				<tr><td style="width:180px"></td><td></td><td style="width:180px"></td></tr>
+				

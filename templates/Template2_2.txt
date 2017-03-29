@@ -1,0 +1,5 @@
+			  <div class="col-sm-12">
+                <div class="well text-center" style="margin-top: 20px">
+				  <img class="img-responsive" src="{{IMAGE}}" alt="Image">
+				</div>
+              </div>

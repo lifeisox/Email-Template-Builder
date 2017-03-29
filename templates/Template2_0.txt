@@ -1,0 +1,3 @@
+			  <div class="col-sm-12">
+                  <h4><strong>{{TEXT}}</strong></h4>
+              </div>

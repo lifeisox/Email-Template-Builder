@@ -1,0 +1,3 @@
+              <div class="col-sm-12 text-center">
+                <a href="{{LINK}}"><button class="btn btn-primary">{{TEXT}}</button></a>
+              </div>
